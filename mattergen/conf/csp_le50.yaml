@@ -1,0 +1,14 @@
+hydra:
+  run:
+    dir: ${oc.env:OUTPUT_DIR,outputs/singlerun/${now:%Y-%m-%d}/${now:%H-%M-%S}}
+
+auto_resume: false
+
+defaults:
+  - _self_
+  - data_module: omc25_le50_mattergen
+  - trainer: default
+  - lightning_module: default
+  - lightning_module/diffusion_module: csp
+  - lightning_module/diffusion_module/model: mattergen
+  - lightning_module/diffusion_module/corruption: csp

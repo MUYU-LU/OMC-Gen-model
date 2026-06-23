@@ -1,0 +1,54 @@
+_target_: mattergen.common.data.datamodule.CrystDataModule
+_recursive_: true
+
+properties: []
+
+transforms:
+  - _target_: mattergen.common.data.transform.symmetrize_lattice
+    _partial_: true
+  - _target_: mattergen.common.data.transform.set_chemical_system_string
+    _partial_: true
+
+dataset_transforms:
+  - _target_: mattergen.common.data.dataset_transform.filter_sparse_properties
+    _partial_: true
+
+average_density: 0.10
+
+root_dir: ${oc.env:PROJECT_ROOT}/../datasets/cache/omc25_le50_mattergen
+mapping_dir: ${oc.env:PROJECT_ROOT}/../datasets/molecule_mapping
+smiles_graph_jsonl: ${oc.env:PROJECT_ROOT}/../scripts/oe62_hybrid_graphs_all_v3.jsonl.gz
+
+train_dataset:
+  _target_: mattergen.common.data.molecule_dataset.MoleculeMappedCrystalDataset.from_cache_path
+  cache_path: ${data_module.root_dir}/train
+  mapping_jsonl: ${data_module.mapping_dir}/omc25_le300_train_molmap_hybrid_v3.jsonl.gz
+  smiles_graph_jsonl: ${data_module.smiles_graph_jsonl}
+  strict_transfer_mode: rdkit_explicit_h_full_match
+  properties: ${data_module.properties}
+  transforms: ${data_module.transforms}
+  dataset_transforms: ${data_module.dataset_transforms}
+
+val_dataset:
+  _target_: mattergen.common.data.molecule_dataset.MoleculeMappedCrystalDataset.from_cache_path
+  cache_path: ${data_module.root_dir}/val
+  mapping_jsonl: ${data_module.mapping_dir}/omc25_le300_val_molmap_hybrid_v3.jsonl.gz
+  smiles_graph_jsonl: ${data_module.smiles_graph_jsonl}
+  strict_transfer_mode: rdkit_explicit_h_full_match
+  properties: ${data_module.properties}
+  transforms: ${data_module.transforms}
+  dataset_transforms: ${data_module.dataset_transforms}
+
+test_dataset: null
+
+num_workers:
+  train: 4
+  val: 2
+  test: 0
+
+batch_size:
+  train: 1
+  val: 1
+  test: 1
+
+max_epochs: 300

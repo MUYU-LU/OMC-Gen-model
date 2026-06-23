@@ -1,0 +1,10 @@
+_target_: mattergen.property_embeddings.PropertyEmbedding
+name: mol_id
+unconditional_embedding_module:
+  _target_: mattergen.property_embeddings.EmbeddingVector
+  hidden_dim: ${lightning_module.diffusion_module.model.hidden_dim}
+conditional_embedding_module:
+  _target_: mattergen.property_embeddings.MorganFingerprintEmbedding
+  hidden_dim: ${lightning_module.diffusion_module.model.hidden_dim}
+  fingerprint_path: ${oc.env:PROJECT_ROOT}/../datasets/omc25_molecule_graphs.jsonl
+  nbits: 2048

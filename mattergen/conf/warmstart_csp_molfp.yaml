@@ -1,0 +1,19 @@
+hydra:
+  run:
+    dir: ${oc.env:OUTPUT_DIR,outputs/singlerun/${now:%Y-%m-%d}/${now:%H-%M-%S}}
+
+auto_resume: false
+
+warmstart:
+  model_path: ${oc.env:WARMSTART_MODEL_PATH,checkpoints/mattergen_base}
+  load_epoch: 204
+  strict: false
+
+defaults:
+  - data_module: omc25_le50_mattergen_smiles
+  - trainer: default
+  - lightning_module: default
+  - lightning_module/diffusion_module: csp
+  - lightning_module/diffusion_module/model: mattergen
+  - lightning_module/diffusion_module/corruption: csp
+  - /lightning_module/diffusion_module/model/property_embeddings@lightning_module.diffusion_module.model.property_embeddings.mol_id: mol_id

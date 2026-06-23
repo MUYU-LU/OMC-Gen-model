@@ -1,0 +1,46 @@
+_target_: mattergen.common.data.datamodule.CrystDataModule
+_recursive_: true
+
+properties: []
+
+transforms:
+  - _target_: mattergen.common.data.transform.symmetrize_lattice
+    _partial_: true
+  - _target_: mattergen.common.data.transform.set_chemical_system_string
+    _partial_: true
+
+dataset_transforms:
+  - _target_: mattergen.common.data.dataset_transform.filter_sparse_properties
+    _partial_: true
+
+average_density: 0.10
+
+root_dir: ${oc.env:PROJECT_ROOT}/../datasets/cache/omc25_le50_mattergen
+
+train_dataset:
+  _target_: mattergen.common.data.dataset.CrystalDataset.from_cache_path
+  cache_path: ${data_module.root_dir}/train
+  properties: ${data_module.properties}
+  transforms: ${data_module.transforms}
+  dataset_transforms: ${data_module.dataset_transforms}
+
+val_dataset:
+  _target_: mattergen.common.data.dataset.CrystalDataset.from_cache_path
+  cache_path: ${data_module.root_dir}/val
+  properties: ${data_module.properties}
+  transforms: ${data_module.transforms}
+  dataset_transforms: ${data_module.dataset_transforms}
+
+test_dataset: null
+
+num_workers:
+  train: 4
+  val: 2
+  test: 0
+
+batch_size:
+  train: 1
+  val: 1
+  test: 1
+
+max_epochs: 300

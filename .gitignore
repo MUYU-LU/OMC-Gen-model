@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Large/private data and generated artifacts
+datasets/
+checkpoints/
+outputs/
+results/
+samples/
+logs/
+wandb/
+lightning_logs/
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+*.npz
+*.npy
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.lmdb
+*.aselmdb
+*.jsonl.gz
+*.csv.gz
+*.zip
+*.tar
+*.tar.gz
+
+# Generated structures and trajectories
+*.cif
+*.extxyz
+*.xyz
+
+# Local machine scripts/logs
+*.pid
+*.log
+nohup.out
+
+# Temporary backup files
+*.bak
+*.bak_*
+*.pre_*
+*.before_*
+*.orig
+
