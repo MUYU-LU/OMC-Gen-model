@@ -38,6 +38,7 @@ Use environment variables or local paths to point scripts at your own data/check
 - `mattergen/denoiser.py`: integration point for molecule conditioning.
 - `scripts/`: reusable molecule graph preparation and topology evaluation scripts.
 - `docs/experiment_log.md`: experiment history, outcomes, and next-step notes.
+- `docs/version_naming.md`: canonical names for tried and proposed version families.
 - `docs/github_upload_inventory.md`: what was exported and what was excluded.
 
 ## Minimal Usage Sketch
@@ -67,7 +68,7 @@ python scripts/build_oe62_smiles_graphs.py \
 Evaluate generated CIFs with RDKit graph-isomorphism checks:
 
 ```bash
-python scripts/tmp_rdkit_connectivity_check.py
+python scripts/molcsp_eval/check_rdkit_topology.py
 ```
 
 Most scripts were originally research utilities. Review paths and CLI arguments before running them on a new machine.
@@ -77,4 +78,3 @@ Most scripts were originally research utilities. Review paths and CLI arguments 
 The current best practical baseline is the assignment-aware molecule-conditioned CSP line documented in `docs/experiment_log.md`. The main remaining bottleneck is not cell validity; it is full-prior unlabelled atom assignment and multi-copy molecular assembly, especially for `Z=4`.
 
 The next clean direction recorded in the notes is `latent_assignment_topology_v1`: keep fixed topology as a low-noise regularizer, but make mid-noise topology matching more assignment-aware.
-

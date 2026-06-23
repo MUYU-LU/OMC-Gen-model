@@ -11,8 +11,8 @@ from statistics import mean, median
 
 ROOT = Path(os.environ.get("OMC25_ROOT", "."))
 PYTHON = os.environ.get("MOLCSP_PYTHON", sys.executable)
-SAMPLE_SCRIPT = ROOT / "scripts/tmp_molcsp_fixed_target_sample.py"
-RDKIT_SCRIPT = ROOT / "scripts/tmp_rdkit_connectivity_check.py"
+SAMPLE_SCRIPT = ROOT / "scripts/molcsp_sampling/sample_fixed_target_fullprior.py"
+RDKIT_SCRIPT = ROOT / "scripts/molcsp_eval/check_rdkit_topology.py"
 VAL_CSV = ROOT / "datasets/omc25_le50_mattergen/val.csv"
 MAPPING_JSONL = ROOT / "datasets/molecule_mapping/omc25_le300_val_molmap_hybrid_v3.jsonl.gz"
 GRAPH_JSONL = ROOT / "scripts/oe62_hybrid_graphs_all_v3.jsonl.gz"

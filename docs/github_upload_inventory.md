@@ -6,11 +6,15 @@ This export was prepared from the working OMC25 MatterGen directory and cleaned 
 
 - `mattergen/`: source package with molecular-CSP additions.
 - `sampling_conf/`: small sampling config files.
-- `scripts/`: reusable Python research utilities for graph building, sampling, and topology evaluation.
+- `scripts/data_prep/`: reusable molecule graph and dataset-preparation utilities.
+- `scripts/molcsp_sampling/`: full-prior/recovery sampling utilities.
+- `scripts/molcsp_eval/`: topology, connectivity, and failure-decomposition evaluation utilities.
 - `README.md`: OMC25 molecular-CSP overview.
 - `README_MATTERGEN_ORIGINAL.md`: original MatterGen README from the working copy.
 - `LICENSE`, `pyproject.toml`: package metadata.
 - `docs/experiment_log.md`: experiment matrix and current conclusions.
+- `docs/experiment_matrix.md`: short table of tried variants.
+- `docs/version_naming.md`: canonical version-family names.
 
 ## Excluded
 
@@ -61,4 +65,3 @@ The strongest retained baseline is the assignment-aware molecule-conditioned CSP
 Initialize Git in this export directory, review `git status`, then push only this cleaned directory.
 
 Do not push the original working directory directly.
-

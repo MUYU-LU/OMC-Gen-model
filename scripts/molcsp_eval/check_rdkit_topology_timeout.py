@@ -19,7 +19,7 @@ def _load_checker(root: str, sample_dir: str, material_id: str):
     os.environ["OMC25_ROOT"] = root
     os.environ["MOLCSP_SAMPLE_DIR"] = sample_dir
     os.environ["MOLCSP_MATERIAL_ID"] = material_id
-    path = pathlib.Path(root) / "scripts/tmp_rdkit_connectivity_check.py"
+    path = pathlib.Path(root) / "scripts/molcsp_eval/check_rdkit_topology.py"
     spec = importlib.util.spec_from_file_location("rdchk", str(path))
     module = importlib.util.module_from_spec(spec)
     assert spec.loader is not None
