@@ -36,6 +36,8 @@ Z=1/Z=2: reasonable
 Z=4: weak
 ```
 
+See `study_results_summary.md` for the verified raw-report numbers and caveats.
+
 ## Current Bottleneck
 
 The main bottleneck is:
@@ -46,4 +48,3 @@ plus multi-copy molecular assembly
 ```
 
 Cell validity is no longer the dominant problem for le50 MolCSP.
-

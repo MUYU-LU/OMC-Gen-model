@@ -14,6 +14,7 @@ This export was prepared from the working OMC25 MatterGen directory and cleaned 
 - `LICENSE`, `pyproject.toml`: package metadata.
 - `docs/experiment_log.md`: experiment matrix and current conclusions.
 - `docs/experiment_matrix.md`: short table of tried variants.
+- `docs/study_results_summary.md`: verified numerical results and next-study recommendation.
 - `docs/version_naming.md`: canonical version-family names.
 
 ## Excluded
