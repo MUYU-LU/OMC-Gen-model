@@ -13,6 +13,8 @@ This export was prepared from the working OMC25 MatterGen directory and cleaned 
 - `README_MATTERGEN_ORIGINAL.md`: original MatterGen README from the working copy.
 - `LICENSE`, `pyproject.toml`: package metadata.
 - `docs/experiment_log.md`: experiment matrix and current conclusions.
+- `docs/full_experiment_history_analysis.md`: full chronological analysis from the beginning.
+- `docs/all_evaluation_summaries.tsv`: machine-readable aggregation of saved JSON summaries.
 - `docs/experiment_matrix.md`: short table of tried variants.
 - `docs/study_results_summary.md`: verified numerical results and next-study recommendation.
 - `docs/version_naming.md`: canonical version-family names.

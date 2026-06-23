@@ -38,6 +38,8 @@ Use environment variables or local paths to point scripts at your own data/check
 - `mattergen/denoiser.py`: integration point for molecule conditioning.
 - `scripts/`: reusable molecule graph preparation and topology evaluation scripts.
 - `docs/experiment_log.md`: experiment history, outcomes, and next-step notes.
+- `docs/full_experiment_history_analysis.md`: chronological analysis from base generation through latest MolCSP variants.
+- `docs/all_evaluation_summaries.tsv`: aggregated machine-readable table of saved JSON evaluation summaries.
 - `docs/study_results_summary.md`: verified results table and recommended next experiment.
 - `docs/version_naming.md`: canonical names for tried and proposed version families.
 - `docs/github_upload_inventory.md`: what was exported and what was excluded.

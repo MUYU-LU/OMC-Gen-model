@@ -2,6 +2,8 @@
 
 This note separates verified metrics from exploratory notes so the next study can continue from a clean baseline.
 
+For the full chronological analysis from the beginning of the project, see `full_experiment_history_analysis.md`.
+
 ## Metric Definition
 
 Unless stated otherwise, the main reported metric is:
@@ -300,4 +302,3 @@ do not use fixed-edge match as the primary metric
 ## Verification Status
 
 The numeric results in this file were re-read from raw JSON reports on 2026-06-23. Comparison caveat: sample counts differ across runs, so the strongest comparison is the 10-target directionality, not exact percent-level ranking unless rerun with identical sample counts.
-
