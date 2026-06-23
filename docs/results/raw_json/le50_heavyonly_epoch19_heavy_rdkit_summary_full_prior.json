@@ -1,0 +1,267 @@
+{
+  "count": 20,
+  "heavy_molecule_pass_rate": 0.4,
+  "pass_basic_rate": 1.0,
+  "by_material": {
+    "FUWRAQ|1|gener|91b75842265b1f5": {
+      "count": 1,
+      "pass": 1,
+      "rate": 1.0,
+      "Z": 1,
+      "size": 17,
+      "components": [
+        1
+      ],
+      "target_like": [
+        1
+      ]
+    },
+    "FUWRAQ|1|press|91b75842265b1f5": {
+      "count": 1,
+      "pass": 1,
+      "rate": 1.0,
+      "Z": 1,
+      "size": 17,
+      "components": [
+        1
+      ],
+      "target_like": [
+        1
+      ]
+    },
+    "FUWRAQ|1|press|dcf4bb9f4bea973": {
+      "count": 1,
+      "pass": 1,
+      "rate": 1.0,
+      "Z": 1,
+      "size": 17,
+      "components": [
+        1
+      ],
+      "target_like": [
+        1
+      ]
+    },
+    "GEMGEM|1|gener|91b75842265b1f5": {
+      "count": 1,
+      "pass": 0,
+      "rate": 0.0,
+      "Z": 1,
+      "size": 24,
+      "components": [
+        1
+      ],
+      "target_like": [
+        0
+      ]
+    },
+    "GEMGEM|1|press|91b75842265b1f5": {
+      "count": 1,
+      "pass": 0,
+      "rate": 0.0,
+      "Z": 1,
+      "size": 24,
+      "components": [
+        1
+      ],
+      "target_like": [
+        0
+      ]
+    },
+    "GEMGEM|1|press|dcf4bb9f4bea973": {
+      "count": 1,
+      "pass": 0,
+      "rate": 0.0,
+      "Z": 1,
+      "size": 24,
+      "components": [
+        1
+      ],
+      "target_like": [
+        0
+      ]
+    },
+    "GIPCUF|1|gener|91b75842265b1f5": {
+      "count": 1,
+      "pass": 0,
+      "rate": 0.0,
+      "Z": 1,
+      "size": 22,
+      "components": [
+        1
+      ],
+      "target_like": [
+        0
+      ]
+    },
+    "JEVPIJ|1|gener|91b75842265b1f5": {
+      "count": 1,
+      "pass": 1,
+      "rate": 1.0,
+      "Z": 1,
+      "size": 20,
+      "components": [
+        1
+      ],
+      "target_like": [
+        1
+      ]
+    },
+    "KEZCUP|1|press|91b75842265b1f5": {
+      "count": 1,
+      "pass": 1,
+      "rate": 1.0,
+      "Z": 1,
+      "size": 22,
+      "components": [
+        1
+      ],
+      "target_like": [
+        1
+      ]
+    },
+    "KEZCUP|1|press|dcf4bb9f4bea973": {
+      "count": 1,
+      "pass": 1,
+      "rate": 1.0,
+      "Z": 1,
+      "size": 22,
+      "components": [
+        1
+      ],
+      "target_like": [
+        1
+      ]
+    },
+    "NUNLAJ|1|gener|97b75093ceb3ffd": {
+      "count": 1,
+      "pass": 0,
+      "rate": 0.0,
+      "Z": 1,
+      "size": 11,
+      "components": [
+        1
+      ],
+      "target_like": [
+        0
+      ]
+    },
+    "NUNLAJ|1|press|91b75842265b1f5": {
+      "count": 1,
+      "pass": 1,
+      "rate": 1.0,
+      "Z": 1,
+      "size": 11,
+      "components": [
+        1
+      ],
+      "target_like": [
+        1
+      ]
+    },
+    "NUNLAJ|1|press|dcf4bb9f4bea973": {
+      "count": 1,
+      "pass": 1,
+      "rate": 1.0,
+      "Z": 1,
+      "size": 11,
+      "components": [
+        1
+      ],
+      "target_like": [
+        1
+      ]
+    },
+    "NUNLEN|2|gener|1e2feb8414c343c": {
+      "count": 1,
+      "pass": 0,
+      "rate": 0.0,
+      "Z": 2,
+      "size": 13,
+      "components": [
+        3
+      ],
+      "target_like": [
+        0
+      ]
+    },
+    "NUNLEN|2|gener|d95bafcf2a4d27b": {
+      "count": 1,
+      "pass": 0,
+      "rate": 0.0,
+      "Z": 2,
+      "size": 13,
+      "components": [
+        1
+      ],
+      "target_like": [
+        0
+      ]
+    },
+    "NUNLEN|4|press|63ca828d5f4b3b2": {
+      "count": 1,
+      "pass": 0,
+      "rate": 0.0,
+      "Z": 2,
+      "size": 13,
+      "components": [
+        2
+      ],
+      "target_like": [
+        0
+      ]
+    },
+    "OSOKUD|1|gener|97b75093ceb3ffd": {
+      "count": 1,
+      "pass": 0,
+      "rate": 0.0,
+      "Z": 1,
+      "size": 18,
+      "components": [
+        1
+      ],
+      "target_like": [
+        0
+      ]
+    },
+    "OSOKUD|1|press|97b75093ceb3ffd": {
+      "count": 1,
+      "pass": 0,
+      "rate": 0.0,
+      "Z": 1,
+      "size": 18,
+      "components": [
+        1
+      ],
+      "target_like": [
+        0
+      ]
+    },
+    "WIGXIU|2|press|97b75093ceb3ffd": {
+      "count": 1,
+      "pass": 0,
+      "rate": 0.0,
+      "Z": 2,
+      "size": 14,
+      "components": [
+        1
+      ],
+      "target_like": [
+        0
+      ]
+    },
+    "WIGXIU|2|press|dcf4bb9f4bea973": {
+      "count": 1,
+      "pass": 0,
+      "rate": 0.0,
+      "Z": 2,
+      "size": 14,
+      "components": [
+        2
+      ],
+      "target_like": [
+        0
+      ]
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "checkpoint": "<REMOTE_PROJECT>/outputs/singlerun/2026-06-09/le50_molcsp_setattn_from_b_epoch294_b4_8gpu_2204/checkpoints/epoch=31-loss_val=0.05.ckpt",
+  "material_id": "KEZCUP|1|press|dcf4bb9f4bea973",
+  "target_cif": "<REMOTE_PROJECT>/samples/le50_setattn_epoch31_fullprior_eval_10x64_n1000_2204gpu01234567/targets/target_KEZCUP_1_press_dcf4bb9f4bea973.cif",
+  "N": 1000,
+  "batch_size": 4,
+  "count": 8,
+  "start_index": 0,
+  "shard_id": 0,
+  "summary": {
+    "count": 8,
+    "valid_cell_rate": 1.0,
+    "no_clash_rate": 1.0,
+    "pass_basic_rate": 1.0,
+    "volume_ratio_median": 1.1752461506872016,
+    "volume_ratio_mean": 1.185132441960728,
+    "density_ratio_median": 0.8508892270866262,
+    "density_ratio_mean": 0.8490468848421242,
+    "atom_density_median": 0.08053729586156452,
+    "atom_density_mean": 0.08036291680292755,
+    "min_dist_median": 1.056308627128601,
+    "min_dist_mean": 1.0520840734243393,
+    "min_angle_median": 84.53158569335938,
+    "min_angle_mean": 84.51659965515137,
+    "max_angle_median": 97.03034210205078,
+    "max_angle_mean": 98.52800178527832
+  }
+}

@@ -38,9 +38,13 @@ Use environment variables or local paths to point scripts at your own data/check
 - `mattergen/denoiser.py`: integration point for molecule conditioning.
 - `scripts/`: reusable molecule graph preparation and topology evaluation scripts.
 - `docs/experiment_log.md`: experiment history, outcomes, and next-step notes.
-- `docs/full_experiment_history_analysis.md`: chronological analysis from base generation through latest MolCSP variants.
-- `docs/all_evaluation_summaries.tsv`: aggregated machine-readable table of saved JSON evaluation summaries.
+- `docs/chronological_run_log.md`: literal date-ordered artifact trajectory from the start.
+- `docs/full_experiment_history_analysis.md`: scientific phase analysis from base generation through latest MolCSP variants.
+- `docs/canonical_results_table.md`: curated comparable results table.
+- `docs/all_evaluation_summaries.tsv`: selected aggregated table of saved JSON evaluation summaries.
 - `docs/study_results_summary.md`: verified results table and recommended next experiment.
+- `docs/reproducibility.md`: command map for data prep, sampling, and evaluation.
+- `docs/results/`: small raw JSON evidence bundle for the headline metrics.
 - `docs/version_naming.md`: canonical names for tried and proposed version families.
 - `docs/github_upload_inventory.md`: what was exported and what was excluded.
 
@@ -63,7 +67,7 @@ export WARMSTART_MODEL_PATH=/path/to/checkpoint_or_run_dir
 Build molecule graph records from an OE62-like metadata table:
 
 ```bash
-python scripts/build_oe62_smiles_graphs.py \
+python scripts/data_prep/build_oe62_smiles_graphs.py \
   --input /path/to/df_62k.json \
   --output datasets/molecule_mapping/oe62_smiles_graphs.jsonl
 ```

@@ -834,7 +834,7 @@ KEZCUP Z=1:
 Interpretation:
 
 ```text
-Pure set-attention preserves cell/basic geometry but loses the target SMILES topology.
+Pure set-attention mostly preserves cell/basic geometry in the checked shards but loses the target SMILES topology.
 The fixed-index GNN conditioner is imperfect, but it supplies a strong molecular topology scaffold.
 Removing that scaffold makes the molecular identity signal too weak.
 

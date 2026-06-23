@@ -1,0 +1,18 @@
+{
+  "count": 20,
+  "valid_cell_rate": 1.0,
+  "no_clash_rate": 1.0,
+  "pass_basic_rate": 1.0,
+  "volume_ratio_median": 1.0101191153638498,
+  "volume_ratio_mean": 1.0092126999393944,
+  "density_ratio_median": 0.9902379564080499,
+  "density_ratio_mean": 1.0040694610640408,
+  "atom_density_median": 0.054071761102041344,
+  "atom_density_mean": 0.053969016783453096,
+  "min_dist_median": 1.2406479120254517,
+  "min_dist_mean": 1.2675685942173005,
+  "min_angle_median": 83.58271408081055,
+  "min_angle_mean": 81.12917270660401,
+  "max_angle_median": 97.2409896850586,
+  "max_angle_mean": 99.428422164917
+}

@@ -1,0 +1,8 @@
+{
+  "samples": 5120,
+  "old_pass": 2016,
+  "new_pass": 2626,
+  "old_pass_pct": 39.375,
+  "new_pass_pct": 51.2890625,
+  "delta_pp": 11.9140625
+}

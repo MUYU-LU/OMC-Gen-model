@@ -1,0 +1,28 @@
+{
+  "checkpoint": "<REMOTE_PROJECT>/outputs/singlerun/2026-06-09/le50_molcsp_setattn_from_b_epoch294_b4_8gpu_2204/checkpoints/epoch=31-loss_val=0.05.ckpt",
+  "material_id": "NUNLAJ|1|press|91b75842265b1f5",
+  "target_cif": "<REMOTE_PROJECT>/samples/le50_setattn_epoch31_fullprior_eval_10x64_n1000_2204gpu01234567/targets/target_NUNLAJ_1_press_91b75842265b1f5.cif",
+  "N": 1000,
+  "batch_size": 4,
+  "count": 8,
+  "start_index": 0,
+  "shard_id": 0,
+  "summary": {
+    "count": 8,
+    "valid_cell_rate": 1.0,
+    "no_clash_rate": 1.0,
+    "pass_basic_rate": 1.0,
+    "volume_ratio_median": 0.9600773530719378,
+    "volume_ratio_mean": 0.98725005197208,
+    "density_ratio_median": 1.0415939041240585,
+    "density_ratio_mean": 1.0150709184490592,
+    "atom_density_median": 0.11598776844783586,
+    "atom_density_mean": 0.1130342738960372,
+    "min_dist_median": 1.0788316130638123,
+    "min_dist_mean": 1.0768216997385025,
+    "min_angle_median": 80.44309616088867,
+    "min_angle_mean": 79.03615236282349,
+    "max_angle_median": 99.15061569213867,
+    "max_angle_mean": 98.8596134185791
+  }
+}

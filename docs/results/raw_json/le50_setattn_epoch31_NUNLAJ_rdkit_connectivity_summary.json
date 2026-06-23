@@ -1,0 +1,11 @@
+{
+  "count": 64,
+  "rdkit_component_count_match_rate": 0.765625,
+  "rdkit_component_size_match_rate": 0.765625,
+  "rdkit_all_components_match_target_rate": 0.0,
+  "rdkit_molecule_pass_rate": 0.0,
+  "rdkit_num_components_median": 1.0,
+  "rdkit_num_components_mean": 1.234375,
+  "rdkit_num_target_like_components_median": 0.0,
+  "rdkit_num_target_like_components_mean": 0.0
+}

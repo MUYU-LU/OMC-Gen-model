@@ -2,7 +2,9 @@
 
 This note separates verified metrics from exploratory notes so the next study can continue from a clean baseline.
 
-For the full chronological analysis from the beginning of the project, see `full_experiment_history_analysis.md`.
+For the literal chronology, see `chronological_run_log.md`. For the scientific phase analysis from the beginning, see `full_experiment_history_analysis.md`.
+
+For the raw JSON evidence behind the headline metrics, see `docs/results/raw_json/`.
 
 ## Metric Definition
 
@@ -161,7 +163,7 @@ Verified results:
 Interpretation:
 
 ```text
-Pure set-attention preserves basic cell validity but loses target SMILES topology.
+Pure set-attention mostly preserves basic cell validity in the checked shards but loses target SMILES topology.
 This is a clear negative result.
 Do not continue pure set-attention without explicit topology constraints.
 ```

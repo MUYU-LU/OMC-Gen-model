@@ -45,6 +45,10 @@ lightning_logs/
 *.extxyz
 *.xyz
 
+# Tracked documentation evidence bundle; generated experiment results remain ignored.
+!docs/results/
+!docs/results/**
+
 # Local machine scripts/logs
 *.pid
 *.log
@@ -56,4 +60,3 @@ nohup.out
 *.pre_*
 *.before_*
 *.orig
-

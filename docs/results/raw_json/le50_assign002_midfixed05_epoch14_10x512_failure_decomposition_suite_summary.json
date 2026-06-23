@@ -1,0 +1,487 @@
+{
+  "suite_dir": "<REMOTE_PROJECT>/samples/le50_assign002_midfixed05_epoch14_fullprior_eval_10x512_n1000_2204gpu01234567",
+  "num_targets": 10,
+  "targets": [
+    {
+      "material_id": "AKOVOL01|4|gener|1710cf527ac435a",
+      "safe_id": "AKOVOL01_4_gener_1710cf527ac435a",
+      "refcode": "AKOVOL01",
+      "num_atoms": 48,
+      "num_molecules": 4,
+      "component_sizes": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "count": 512,
+      "rdkit_molecule_pass_rate": 0.400390625,
+      "pass_basic_rate": 0.943359375,
+      "fixed_edge_match_rate": 0.0,
+      "rdkit_pass_but_fixed_edge_mismatch_rate": 1.0,
+      "rdkit_pass_but_copy_mixed_rate": 1.0,
+      "has_inter_copy_false_bond_rate": 1.0,
+      "has_mixed_copy_component_rate": 1.0,
+      "has_fixed_copy_split_rate": 0.99609375,
+      "fixed_missing_bonds_median": 39.0,
+      "fixed_extra_bonds_median": 39.0,
+      "inter_copy_false_bonds_median": 36.0,
+      "bond_count_delta_median": 0.0,
+      "num_components_median": 4.0,
+      "num_target_like_components_mean": 2.607421875,
+      "primary_counts": {
+        "component_over_count_split_like": 39,
+        "rdkit_pass": 205,
+        "component_size_mismatch": 120,
+        "wrong_topology_same_count_size_bondcount": 40,
+        "component_under_count_merge_like": 73,
+        "basic_invalid": 27,
+        "bond_count_low_missing_like": 5,
+        "bond_count_high_extra_like": 3
+      },
+      "failure_primary_counts": {
+        "component_over_count_split_like": 39,
+        "component_size_mismatch": 120,
+        "wrong_topology_same_count_size_bondcount": 40,
+        "component_under_count_merge_like": 73,
+        "basic_invalid": 27,
+        "bond_count_low_missing_like": 5,
+        "bond_count_high_extra_like": 3
+      },
+      "failure_primary_rates": {
+        "component_over_count_split_like": 0.1270358306188925,
+        "component_size_mismatch": 0.39087947882736157,
+        "wrong_topology_same_count_size_bondcount": 0.13029315960912052,
+        "component_under_count_merge_like": 0.23778501628664495,
+        "basic_invalid": 0.08794788273615635,
+        "bond_count_low_missing_like": 0.016286644951140065,
+        "bond_count_high_extra_like": 0.009771986970684038
+      }
+    },
+    {
+      "material_id": "ANACEY|1|gener|91b75842265b1f5",
+      "safe_id": "ANACEY_1_gener_91b75842265b1f5",
+      "refcode": "ANACEY",
+      "num_atoms": 50,
+      "num_molecules": 1,
+      "component_sizes": [
+        50
+      ],
+      "count": 512,
+      "rdkit_molecule_pass_rate": 0.1015625,
+      "pass_basic_rate": 1.0,
+      "fixed_edge_match_rate": 0.0,
+      "rdkit_pass_but_fixed_edge_mismatch_rate": 1.0,
+      "rdkit_pass_but_copy_mixed_rate": 0.0,
+      "has_inter_copy_false_bond_rate": 0.0,
+      "has_mixed_copy_component_rate": 0.0,
+      "has_fixed_copy_split_rate": 0.234375,
+      "fixed_missing_bonds_median": 15.0,
+      "fixed_extra_bonds_median": 15.0,
+      "inter_copy_false_bonds_median": 0.0,
+      "bond_count_delta_median": 0.0,
+      "num_components_median": 1.0,
+      "num_target_like_components_mean": 0.1015625,
+      "primary_counts": {
+        "bond_count_low_missing_like": 30,
+        "bond_count_high_extra_like": 121,
+        "wrong_topology_same_count_size_bondcount": 189,
+        "component_over_count_split_like": 120,
+        "rdkit_pass": 52
+      },
+      "failure_primary_counts": {
+        "bond_count_low_missing_like": 30,
+        "bond_count_high_extra_like": 121,
+        "wrong_topology_same_count_size_bondcount": 189,
+        "component_over_count_split_like": 120
+      },
+      "failure_primary_rates": {
+        "bond_count_low_missing_like": 0.06521739130434782,
+        "bond_count_high_extra_like": 0.26304347826086955,
+        "wrong_topology_same_count_size_bondcount": 0.4108695652173913,
+        "component_over_count_split_like": 0.2608695652173913
+      }
+    },
+    {
+      "material_id": "BARBOL|2|press|21636368b529b4a",
+      "safe_id": "BARBOL_2_press_21636368b529b4a",
+      "refcode": "BARBOL",
+      "num_atoms": 24,
+      "num_molecules": 2,
+      "component_sizes": [
+        12,
+        12
+      ],
+      "count": 512,
+      "rdkit_molecule_pass_rate": 0.859375,
+      "pass_basic_rate": 0.998046875,
+      "fixed_edge_match_rate": 0.0,
+      "rdkit_pass_but_fixed_edge_mismatch_rate": 1.0,
+      "rdkit_pass_but_copy_mixed_rate": 1.0,
+      "has_inter_copy_false_bond_rate": 1.0,
+      "has_mixed_copy_component_rate": 1.0,
+      "has_fixed_copy_split_rate": 1.0,
+      "fixed_missing_bonds_median": 18.0,
+      "fixed_extra_bonds_median": 18.0,
+      "inter_copy_false_bonds_median": 12.0,
+      "bond_count_delta_median": 0.0,
+      "num_components_median": 2.0,
+      "num_target_like_components_mean": 1.75390625,
+      "primary_counts": {
+        "rdkit_pass": 440,
+        "component_size_mismatch": 50,
+        "component_over_count_split_like": 15,
+        "basic_invalid": 1,
+        "wrong_topology_same_count_size_bondcount": 6
+      },
+      "failure_primary_counts": {
+        "component_size_mismatch": 50,
+        "component_over_count_split_like": 15,
+        "basic_invalid": 1,
+        "wrong_topology_same_count_size_bondcount": 6
+      },
+      "failure_primary_rates": {
+        "component_size_mismatch": 0.6944444444444444,
+        "component_over_count_split_like": 0.20833333333333334,
+        "basic_invalid": 0.013888888888888888,
+        "wrong_topology_same_count_size_bondcount": 0.08333333333333333
+      }
+    },
+    {
+      "material_id": "BEYPUR|2|gener|cd613e3d8f16adf",
+      "safe_id": "BEYPUR_2_gener_cd613e3d8f16adf",
+      "refcode": "BEYPUR",
+      "num_atoms": 50,
+      "num_molecules": 2,
+      "component_sizes": [
+        25,
+        25
+      ],
+      "count": 512,
+      "rdkit_molecule_pass_rate": 0.4765625,
+      "pass_basic_rate": 1.0,
+      "fixed_edge_match_rate": 0.0,
+      "rdkit_pass_but_fixed_edge_mismatch_rate": 1.0,
+      "rdkit_pass_but_copy_mixed_rate": 1.0,
+      "has_inter_copy_false_bond_rate": 1.0,
+      "has_mixed_copy_component_rate": 1.0,
+      "has_fixed_copy_split_rate": 0.78515625,
+      "fixed_missing_bonds_median": 27.0,
+      "fixed_extra_bonds_median": 27.0,
+      "inter_copy_false_bonds_median": 26.0,
+      "bond_count_delta_median": 0.0,
+      "num_components_median": 2.0,
+      "num_target_like_components_mean": 1.080078125,
+      "primary_counts": {
+        "component_under_count_merge_like": 110,
+        "wrong_topology_same_count_size_bondcount": 13,
+        "bond_count_low_missing_like": 54,
+        "component_size_mismatch": 83,
+        "rdkit_pass": 244,
+        "component_over_count_split_like": 6,
+        "bond_count_high_extra_like": 2
+      },
+      "failure_primary_counts": {
+        "component_under_count_merge_like": 110,
+        "wrong_topology_same_count_size_bondcount": 13,
+        "bond_count_low_missing_like": 54,
+        "component_size_mismatch": 83,
+        "component_over_count_split_like": 6,
+        "bond_count_high_extra_like": 2
+      },
+      "failure_primary_rates": {
+        "component_under_count_merge_like": 0.41044776119402987,
+        "wrong_topology_same_count_size_bondcount": 0.048507462686567165,
+        "bond_count_low_missing_like": 0.20149253731343283,
+        "component_size_mismatch": 0.30970149253731344,
+        "component_over_count_split_like": 0.022388059701492536,
+        "bond_count_high_extra_like": 0.007462686567164179
+      }
+    },
+    {
+      "material_id": "DCLETH02|2|gener|afbd67f619699cf",
+      "safe_id": "DCLETH02_2_gener_afbd67f619699cf",
+      "refcode": "DCLETH02",
+      "num_atoms": 16,
+      "num_molecules": 2,
+      "component_sizes": [
+        8,
+        8
+      ],
+      "count": 512,
+      "rdkit_molecule_pass_rate": 0.701171875,
+      "pass_basic_rate": 1.0,
+      "fixed_edge_match_rate": 0.0,
+      "rdkit_pass_but_fixed_edge_mismatch_rate": 1.0,
+      "rdkit_pass_but_copy_mixed_rate": 1.0,
+      "has_inter_copy_false_bond_rate": 0.998046875,
+      "has_mixed_copy_component_rate": 0.998046875,
+      "has_fixed_copy_split_rate": 0.998046875,
+      "fixed_missing_bonds_median": 11.0,
+      "fixed_extra_bonds_median": 11.0,
+      "inter_copy_false_bonds_median": 8.0,
+      "bond_count_delta_median": 0.0,
+      "num_components_median": 2.0,
+      "num_target_like_components_mean": 1.5078125,
+      "primary_counts": {
+        "rdkit_pass": 359,
+        "wrong_topology_same_count_size_bondcount": 151,
+        "component_size_mismatch": 2
+      },
+      "failure_primary_counts": {
+        "wrong_topology_same_count_size_bondcount": 151,
+        "component_size_mismatch": 2
+      },
+      "failure_primary_rates": {
+        "wrong_topology_same_count_size_bondcount": 0.9869281045751634,
+        "component_size_mismatch": 0.013071895424836602
+      }
+    },
+    {
+      "material_id": "DCLETH02|4|press|a8c24d444ef7feb",
+      "safe_id": "DCLETH02_4_press_a8c24d444ef7feb",
+      "refcode": "DCLETH02",
+      "num_atoms": 32,
+      "num_molecules": 4,
+      "component_sizes": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "count": 512,
+      "rdkit_molecule_pass_rate": 0.3046875,
+      "pass_basic_rate": 1.0,
+      "fixed_edge_match_rate": 0.0,
+      "rdkit_pass_but_fixed_edge_mismatch_rate": 1.0,
+      "rdkit_pass_but_copy_mixed_rate": 1.0,
+      "has_inter_copy_false_bond_rate": 1.0,
+      "has_mixed_copy_component_rate": 1.0,
+      "has_fixed_copy_split_rate": 1.0,
+      "fixed_missing_bonds_median": 24.0,
+      "fixed_extra_bonds_median": 24.0,
+      "inter_copy_false_bonds_median": 22.0,
+      "bond_count_delta_median": 0.0,
+      "num_components_median": 4.0,
+      "num_target_like_components_mean": 2.482421875,
+      "primary_counts": {
+        "component_over_count_split_like": 28,
+        "component_size_mismatch": 17,
+        "wrong_topology_same_count_size_bondcount": 311,
+        "rdkit_pass": 156
+      },
+      "failure_primary_counts": {
+        "component_over_count_split_like": 28,
+        "component_size_mismatch": 17,
+        "wrong_topology_same_count_size_bondcount": 311
+      },
+      "failure_primary_rates": {
+        "component_over_count_split_like": 0.07865168539325842,
+        "component_size_mismatch": 0.047752808988764044,
+        "wrong_topology_same_count_size_bondcount": 0.8735955056179775
+      }
+    },
+    {
+      "material_id": "FUWRAQ|1|press|dcf4bb9f4bea973",
+      "safe_id": "FUWRAQ_1_press_dcf4bb9f4bea973",
+      "refcode": "FUWRAQ",
+      "num_atoms": 35,
+      "num_molecules": 1,
+      "component_sizes": [
+        35
+      ],
+      "count": 512,
+      "rdkit_molecule_pass_rate": 0.7265625,
+      "pass_basic_rate": 1.0,
+      "fixed_edge_match_rate": 0.044921875,
+      "rdkit_pass_but_fixed_edge_mismatch_rate": 0.9381720430107527,
+      "rdkit_pass_but_copy_mixed_rate": 0.0,
+      "has_inter_copy_false_bond_rate": 0.0,
+      "has_mixed_copy_component_rate": 0.0,
+      "has_fixed_copy_split_rate": 0.05078125,
+      "fixed_missing_bonds_median": 4.0,
+      "fixed_extra_bonds_median": 4.0,
+      "inter_copy_false_bonds_median": 0.0,
+      "bond_count_delta_median": 0.0,
+      "num_components_median": 1.0,
+      "num_target_like_components_mean": 0.7265625,
+      "primary_counts": {
+        "rdkit_pass": 372,
+        "wrong_topology_same_count_size_bondcount": 103,
+        "component_over_count_split_like": 26,
+        "bond_count_low_missing_like": 10,
+        "bond_count_high_extra_like": 1
+      },
+      "failure_primary_counts": {
+        "wrong_topology_same_count_size_bondcount": 103,
+        "component_over_count_split_like": 26,
+        "bond_count_low_missing_like": 10,
+        "bond_count_high_extra_like": 1
+      },
+      "failure_primary_rates": {
+        "wrong_topology_same_count_size_bondcount": 0.7357142857142858,
+        "component_over_count_split_like": 0.18571428571428572,
+        "bond_count_low_missing_like": 0.07142857142857142,
+        "bond_count_high_extra_like": 0.007142857142857143
+      }
+    },
+    {
+      "material_id": "KEZCUP|1|press|dcf4bb9f4bea973",
+      "safe_id": "KEZCUP_1_press_dcf4bb9f4bea973",
+      "refcode": "KEZCUP",
+      "num_atoms": 35,
+      "num_molecules": 1,
+      "component_sizes": [
+        35
+      ],
+      "count": 512,
+      "rdkit_molecule_pass_rate": 0.95703125,
+      "pass_basic_rate": 0.99609375,
+      "fixed_edge_match_rate": 0.009765625,
+      "rdkit_pass_but_fixed_edge_mismatch_rate": 0.9897959183673469,
+      "rdkit_pass_but_copy_mixed_rate": 0.0,
+      "has_inter_copy_false_bond_rate": 0.0,
+      "has_mixed_copy_component_rate": 0.0,
+      "has_fixed_copy_split_rate": 0.00390625,
+      "fixed_missing_bonds_median": 8.0,
+      "fixed_extra_bonds_median": 8.0,
+      "inter_copy_false_bonds_median": 0.0,
+      "bond_count_delta_median": 0.0,
+      "num_components_median": 1.0,
+      "num_target_like_components_mean": 0.95703125,
+      "primary_counts": {
+        "rdkit_pass": 490,
+        "wrong_topology_same_count_size_bondcount": 12,
+        "bond_count_low_missing_like": 8,
+        "component_over_count_split_like": 2
+      },
+      "failure_primary_counts": {
+        "wrong_topology_same_count_size_bondcount": 12,
+        "bond_count_low_missing_like": 8,
+        "component_over_count_split_like": 2
+      },
+      "failure_primary_rates": {
+        "wrong_topology_same_count_size_bondcount": 0.5454545454545454,
+        "bond_count_low_missing_like": 0.36363636363636365,
+        "component_over_count_split_like": 0.09090909090909091
+      }
+    },
+    {
+      "material_id": "NUNLAJ|1|press|91b75842265b1f5",
+      "safe_id": "NUNLAJ_1_press_91b75842265b1f5",
+      "refcode": "NUNLAJ",
+      "num_atoms": 23,
+      "num_molecules": 1,
+      "component_sizes": [
+        23
+      ],
+      "count": 512,
+      "rdkit_molecule_pass_rate": 0.91015625,
+      "pass_basic_rate": 1.0,
+      "fixed_edge_match_rate": 0.0,
+      "rdkit_pass_but_fixed_edge_mismatch_rate": 1.0,
+      "rdkit_pass_but_copy_mixed_rate": 0.0,
+      "has_inter_copy_false_bond_rate": 0.0,
+      "has_mixed_copy_component_rate": 0.0,
+      "has_fixed_copy_split_rate": 0.005859375,
+      "fixed_missing_bonds_median": 13.0,
+      "fixed_extra_bonds_median": 13.0,
+      "inter_copy_false_bonds_median": 0.0,
+      "bond_count_delta_median": 0.0,
+      "num_components_median": 1.0,
+      "num_target_like_components_mean": 0.91015625,
+      "primary_counts": {
+        "rdkit_pass": 466,
+        "wrong_topology_same_count_size_bondcount": 34,
+        "component_over_count_split_like": 3,
+        "bond_count_high_extra_like": 6,
+        "bond_count_low_missing_like": 3
+      },
+      "failure_primary_counts": {
+        "wrong_topology_same_count_size_bondcount": 34,
+        "component_over_count_split_like": 3,
+        "bond_count_high_extra_like": 6,
+        "bond_count_low_missing_like": 3
+      },
+      "failure_primary_rates": {
+        "wrong_topology_same_count_size_bondcount": 0.7391304347826086,
+        "component_over_count_split_like": 0.06521739130434782,
+        "bond_count_high_extra_like": 0.13043478260869565,
+        "bond_count_low_missing_like": 0.06521739130434782
+      }
+    },
+    {
+      "material_id": "RHODIN01|4|gener|9b810e76ec9d286",
+      "safe_id": "RHODIN01_4_gener_9b810e76ec9d286",
+      "refcode": "RHODIN01",
+      "num_atoms": 40,
+      "num_molecules": 4,
+      "component_sizes": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "count": 512,
+      "rdkit_molecule_pass_rate": 0.548828125,
+      "pass_basic_rate": 1.0,
+      "fixed_edge_match_rate": 0.0,
+      "rdkit_pass_but_fixed_edge_mismatch_rate": 1.0,
+      "rdkit_pass_but_copy_mixed_rate": 1.0,
+      "has_inter_copy_false_bond_rate": 1.0,
+      "has_mixed_copy_component_rate": 1.0,
+      "has_fixed_copy_split_rate": 0.9765625,
+      "fixed_missing_bonds_median": 30.0,
+      "fixed_extra_bonds_median": 30.0,
+      "inter_copy_false_bonds_median": 30.0,
+      "bond_count_delta_median": 0.0,
+      "num_components_median": 4.0,
+      "num_target_like_components_mean": 2.859375,
+      "primary_counts": {
+        "component_size_mismatch": 93,
+        "rdkit_pass": 281,
+        "component_under_count_merge_like": 135,
+        "component_over_count_split_like": 2,
+        "bond_count_low_missing_like": 1
+      },
+      "failure_primary_counts": {
+        "component_size_mismatch": 93,
+        "component_under_count_merge_like": 135,
+        "component_over_count_split_like": 2,
+        "bond_count_low_missing_like": 1
+      },
+      "failure_primary_rates": {
+        "component_size_mismatch": 0.4025974025974026,
+        "component_under_count_merge_like": 0.5844155844155844,
+        "component_over_count_split_like": 0.008658008658008658,
+        "bond_count_low_missing_like": 0.004329004329004329
+      }
+    }
+  ],
+  "by_z": {
+    "1": {
+      "num_targets": 4,
+      "rdkit_molecule_pass_rate_mean": 0.673828125,
+      "rdkit_molecule_pass_rate_median": 0.818359375,
+      "fixed_edge_match_rate_mean": 0.013671875,
+      "has_inter_copy_false_bond_rate_mean": 0.0,
+      "has_mixed_copy_component_rate_mean": 0.0
+    },
+    "2": {
+      "num_targets": 3,
+      "rdkit_molecule_pass_rate_mean": 0.6790364583333334,
+      "rdkit_molecule_pass_rate_median": 0.701171875,
+      "fixed_edge_match_rate_mean": 0.0,
+      "has_inter_copy_false_bond_rate_mean": 0.9993489583333334,
+      "has_mixed_copy_component_rate_mean": 0.9993489583333334
+    },
+    "4": {
+      "num_targets": 3,
+      "rdkit_molecule_pass_rate_mean": 0.41796875,
+      "rdkit_molecule_pass_rate_median": 0.400390625,
+      "fixed_edge_match_rate_mean": 0.0,
+      "has_inter_copy_false_bond_rate_mean": 1.0,
+      "has_mixed_copy_component_rate_mean": 1.0
+    }
+  }
+}

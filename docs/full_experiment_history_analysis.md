@@ -1,10 +1,12 @@
 # Full Experiment History And Analysis
 
-This document summarizes the project from the beginning. It is organized chronologically and separates comparable benchmark results from diagnostic checks.
+This document summarizes the project from the beginning as a scientific phase analysis. For the literal date-ordered artifact trajectory, see `chronological_run_log.md`.
 
-For machine-readable raw summaries, see:
+For machine-readable raw summaries and curated comparable results, see:
 
 ```text
+docs/results/raw_json/
+docs/canonical_results_table.md
 docs/all_evaluation_summaries.tsv
 ```
 
@@ -99,8 +101,8 @@ reduce=sum-like behavior -> mean / per-structure normalization
 Result:
 
 ```text
-Training became much more stable for le150/le200.
-This was one of the clearest positive infrastructure changes.
+Training became much more stable for le150, and mean-style scaling clarified the large-system comparison.
+le200 still had runtime/NCCL instability and only partial sampling evidence, so do not treat it as a clean completed benchmark.
 ```
 
 Evidence level:
@@ -342,7 +344,7 @@ Do not interpret pass_basic_rate=1.0 as target SMILES success.
 Result:
 
 ```text
-0.25 cell variance became the preferred setting for full-prior molecular CSP.
+0.25 cell variance became the preferred practical setting for full-prior molecular CSP.
 Cell/basic validity can be made stable.
 Energy guidance can change density/cell behavior but does not solve molecular topology.
 Recovery from low/noisy reference states is not equivalent to full-prior generation.
@@ -703,7 +705,7 @@ Level A partial negative result.
 Conclusion:
 
 ```text
-Pure set-attention keeps cell/basic geometry but loses target SMILES topology.
+Pure set-attention mostly keeps cell/basic geometry in the checked shards but loses target SMILES topology.
 Do not continue pure set-attention without explicit topology constraints.
 ```
 
@@ -738,9 +740,9 @@ Evidence level:
 Level C for our internal project, literature-backed for method direction.
 ```
 
-## All JSON-Based Evaluation Summaries
+## Selected JSON-Based Evaluation Summaries
 
-The complete aggregated table is in:
+The selected aggregated table is in:
 
 ```text
 docs/all_evaluation_summaries.tsv
@@ -751,6 +753,7 @@ Important caveat:
 ```text
 Some rows report only pass_basic_rate, which is geometric/basic validity, not target molecular topology.
 Rows with rdkit_basic_pass_rate_mean_over_targets are the most comparable full-prior topology benchmarks.
+The table is not exhaustive; use `docs/results/raw_json/` and `docs/canonical_results_table.md` for the verified headline evidence.
 ```
 
 ## Final Correct Analysis
@@ -803,4 +806,3 @@ make mid-noise topology loss assignment-aware
 do not include assignment-negative at first
 evaluate by RDKit graph-isomorphism pass, by-Z pass, and failure decomposition
 ```
-
